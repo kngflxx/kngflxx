@@ -1,0 +1,82 @@
+*{
+    
+    font-family: 'Tilt Prism', cursive; 
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(7, 1, 8);
+    margin: 0px;
+    padding: 0px;
+    width: 100%; 
+}
+.logo{
+    max-width: 100px;
+    float: left; 
+}
+ul{
+    list-style: none; 
+    display: flex;
+    justify-content: space-between;
+    padding: 25px; 
+    padding-bottom: 0px;
+    font-size: 17px;
+}
+.menu{
+    align-items: center;
+    background-color: rgba(95, 52, 112, 0.542);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+}
+.menu:hover{
+    background-color: black;
+}
+.bclink{
+    font-size: 18px;
+    background-color: rgba(56, 23, 69, 0.542);
+    padding-left: 120px;
+    padding-right: 100px; ///blazeit
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+    max-width: 600px; 
+    float: right;
+}
+.bclink:hover{
+    background-color: black;
+
+}
+.content{
+    padding-right: 100px;
+    display: flex;
+}
+.music{
+   float: left;
+}
+.musicimg{
+    max-width: 33%;
+    max height: 400px;
+}
+.musicimg:hover{ 
+    filter: grayscale(100%); 
+    opacity: 0.5;
+}
+.musicimg:hover .hovertext{
+    position: absolute;
+    transition: .05s ease;
+    text-align: center;
+    opacity: 1;
+}
+.videos{
+    text-align: center;
+    width: 100%;
+    margin: 0;   
+}
