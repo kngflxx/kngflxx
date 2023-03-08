@@ -50,6 +50,15 @@ ul{
     padding-bottom: 0px;
     font-size: 17px;
 }}
+@media only screen and (max-width:720px){
+    .menu{
+    align-items: center;
+    background-color: rgba(95, 52, 112, 0.542);
+    padding: 20px;
+    text-align: center;
+    border-radius: 25px;
+   
+    color: white;}}
 .menu{
     align-items: center;
     background-color: rgba(95, 52, 112, 0.542);
@@ -167,3 +176,7 @@ float:left; }
     padding-left:48px; 
     padding-right: 120px;
 }
+@media only screen and (max-width:720px){
+    li{ 
+        padding: 10px; 
+    }}
