@@ -5,16 +5,43 @@
 a{
     text-decoration: none;
 }
+
+@media only screen and (max-width:720px){
+body{
+    background-color: rgb(7, 1, 8);
+    margin: 0%;
+    padding: 0%;
+    max-width: 100%;  
+    display: inline-block;
+    text-align: center;
+   
+}}
+@media only screen and (min-width:721px){
 body{
     background-color: rgb(7, 1, 8);
     margin: 0px;
     padding: 0px;
-    width: 100%; 
-}
+    width: 100%;     
+}}
+@media only screen and (max-width:720px){
 .logo{
-    max-width: 100px;
-    float: left; 
-}
+    max-width: 14%;
+}}
+@media only screen and (min-width:721px){
+    .logo{
+        max-width: 8%;
+        float: left;
+    }}
+
+@media only screen and (max-width:720px){
+ul{
+    list-style: none;  
+    padding: 25px; 
+    font-size: 20px;
+    max-width: 100%;
+    
+}}
+@media only screen and (min-width:721px){
 ul{
     list-style: none; 
     display: flex;
@@ -22,7 +49,7 @@ ul{
     padding: 25px; 
     padding-bottom: 0px;
     font-size: 17px;
-}
+}}
 .menu{
     align-items: center;
     background-color: rgba(95, 52, 112, 0.542);
@@ -38,12 +65,12 @@ ul{
     background-color: black;
 }
 .bclink{
-    font-size: 18px;
+    font-size: 16px;
     background-color: rgba(56, 23, 69, 0.542);
     padding-left: 120px;
     padding-right: 100px; ///blazeit
     padding-top: 2px;
-    padding-bottom: 2px;
+    padding-bottom: 0px;
     text-align: center;
     border-radius: 25px;
     color: white;
@@ -54,16 +81,24 @@ ul{
     background-color: black;
 
 }
-.content{
-    padding-right: 100px;
+ .content{
+    padding: 20px;
     display: flex;
+    max-height: 50px;
 }
+@media only screen and (max-width:720px){
 .music{
+   max-width: 100%;
    float: left;
-}
+}}
+@media only screen and (min-width:721px){
+    .music{
+    float: left;
+    padding: 0%;
+ }}
 .musicimg{
     max-width: 33%;
-    max height: 400px;
+    max height: 100%;
 }
 .musicimg:hover{ 
     filter: grayscale(100%); 
@@ -75,26 +110,43 @@ ul{
     text-align: center;
     opacity: 1;
 }
+@media only screen and (max-width:720px){
+    .videos{
+    text-align: center;
+    max-width: 50%;
+    margin: 0;
+    display: inline-block;  
+float:left; } 
+}
+@media only screen and (min-width:721px){
 .videos{
     text-align: center;
-    width: 100%;
-    margin: 0;   
-}
+    max-width: 50%
+    float: left;
+    } }
 .features{
     padding: 90px;
     color: white;
     text-align: center;
-    display: flex;
-     
+    display: flex;   
+    max-width: 100%;
 }
-
+@media only screen and (max-width:720px){.features{
+    padding: 0%;
+    color: white;
+    text-align: center; 
+    max-width: 100%;
+    display:inline-block;   
+}}
 .column2{
     float: right;
-    max-width: 50%;
-}
+    max-width: 49%;
+    padding: 10%;
+}  
 .column1{
     float: left;
-    max-width: 50%;
+    max-width: 49%;
+    padding:10%
 }
 .poc{
     max-width: 90%;
@@ -102,4 +154,16 @@ ul{
 .poc:hover{
     filter: grayscale(100%); 
     opacity: 0.5; 
+}
+@media only screen and (max-width:720px){
+    .content{ 
+        display: none; 
+    }
+}
+.bandcamp{
+    border: 0; 
+    height: 4%; 
+    padding-top:20px; 
+    padding-left:48px; 
+    padding-right: 120px;
 }
