@@ -161,8 +161,8 @@ float:left; }
 }
 
 .poc{
-    max-width: 40%;
-    height: 40%;
+    height: 60%;
+    width: 60%;
 
 }
 .poc:hover{
