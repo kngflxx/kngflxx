@@ -105,8 +105,8 @@ ul{
     padding: 0%;
  }}
 .musicimg{
-    max-width: 33%;
-    max height: 100%;
+    width: 33%;
+   
 }
 .musicimg:hover{ 
     filter: grayscale(100%); 
