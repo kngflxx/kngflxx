@@ -106,8 +106,11 @@ ul{
  }}
 .musicimg{
     width: 33%;
-   
 }
+@media only screen and (max-width:720px){
+    .musicimg{
+       width: 65%;
+    }}
 .musicimg:hover{ 
     filter: grayscale(100%); 
     opacity: 0.5;
