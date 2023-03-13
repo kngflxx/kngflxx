@@ -5,7 +5,6 @@
 a{
     text-decoration: none;
 }
-
 @media only screen and (max-width:720px){
 body{
     background-color: rgb(7, 1, 8);
@@ -134,31 +133,37 @@ float:left; }
     float: left;
     } }
 .features{
-    padding: 90px;
+    padding: 0px;
     color: white;
-    text-align: center;
-    display: flex;   
+    align-items: center; 
     max-width: 100%;
+    flex-wrap: wrap;
+    font-size: 25px;
+
+
 }
 @media only screen and (max-width:720px){.features{
     padding: 0%;
     color: white;
     text-align: center; 
     max-width: 100%;
-    display:inline-block;   
+       
 }}
-.column2{
-    float: right;
-    max-width: 49%;
-    padding: 10%;
-}  
-.column1{
-    float: left;
-    max-width: 49%;
-    padding:10%
+.column3{
+    text-align: center; 
+    display: block;  
 }
+.column2{
+    text-align: center;
+}  
+.column1{  
+    text-align: center; 
+}
+
 .poc{
-    max-width: 90%;
+    max-width: 40%;
+    height: 40%;
+
 }
 .poc:hover{
     filter: grayscale(100%); 
@@ -180,3 +185,41 @@ float:left; }
     li{ 
         padding: 10px; 
     }}
+.contact{
+    text-align: center;
+    max-width: 100%;
+    color: white; 
+    margin: 0px; 
+    padding-bottom: 30px;
+}
+.form{
+    color: black;
+}
+.namebox{
+    width: 30%;
+    padding: 10px;
+}
+.emailbox{
+    width: 30%;
+    padding: 10px;
+}
+.textbox{
+    width: 35%;
+    padding: 10px;
+}
+.links{
+
+    text-align: center; 
+}
+@media only screen and (max-width:720px){
+.linkspics{
+    padding: 7%;
+    width: 7%;
+    height: 7%;
+}}
+@media only screen and (min-width:721px){
+   .linkspics{
+    padding: 2%;
+    width: 3%;
+    height: 3%;
+}}
